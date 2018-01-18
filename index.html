@@ -1,0 +1,55 @@
+<?php 
+$title = "Happy Holidays to my CST friends and peers!";
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Holidays to my CST friends and peers!</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/card.css">
+    <script type="text/javascript" src="./js/card.js"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <h1 class="niceBg">Happy Holidays to my CST friends and peers!</h1>
+    <article id="holiday-card" class="shadow">
+        </section>
+            
+            <section id="front" class="card-face rotating">
+                <canvas id="card-front" class="card-canvas"></canvas>
+                <h2>CST 2017</h2>
+            </section>
+            <section id="inner-left" class="card-face rotating">
+                <div class="flipY bgWhite fill">
+                    
+                </div>
+            </section>
+            <section id="inner-right" class="card-face col">
+                <img class="shrink small" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDcuNiAxMzMuNiI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6IzAwM0U2Qjt9LnN0MXtmaWxsOiNGRkZGRkY7fTwvc3R5bGU+PHJlY3QgY2xhc3M9InN0MCIgd2lkdGg9IjEzMy41IiBoZWlnaHQ9IjEzMy42Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTEzNi4yIDkuNlYyLjVoLTEuN1YxaDUuMXYxLjVoLTEuN3Y3LjFIMTM2LjJ6TTE0NiA5LjZ2LTZoMGwtMS4zIDZoLTEuMmwtMS40LTZoMHY2aC0xLjVWMWgyLjNsMS4yIDUuNGgwbDEuMy01LjRoMi4ydjguNkgxNDZ6Ii8+PHBhdGggY2xhc3M9InN0MSIgZD0iTTI1LjQgODguN2M4LjkgMCAxNS44LTIuNiAxNS44LTEzLjIgMC01LjItMS45LTkuMS03LTEwLjl2LTAuMWMzLjgtMS43IDUuOS00LjkgNS45LTkuNyAwLTguNS00LjgtMTEuOS0xNS4zLTExLjlIMTMuNXY0NS45SDI1LjR6TTY3LjQgNzNjLTEgNi4zLTMuMSA5LjUtNi44IDkuNSAtNC45IDAtNy00LjMtNy0xN0M1My42IDUzLjkgNTYgNDkgNjAuNyA0OWMzLjQgMCA1LjQgMi45IDYuMyA4LjdsNy0wLjZjLTEuMS05LjMtNC43LTE0LjgtMTMuNS0xNC44IC0xMC45IDAtMTQuNyAxMC4xLTE0LjcgMjMuMyAwIDE0LjggMy42IDIzLjcgMTQuNiAyMy43IDguNCAwIDEyLjYtNS4zIDE0LjEtMTUuNUw2Ny40IDczek04OC41IDg4LjdWNDIuOGgtNy42djQ1LjlIODguNXpNMTExLjcgODguN3YtMzloOS41di02LjlIOTQuN3Y2LjloOS41djM5SDExMS43eiIvPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yMC45IDYxLjhWNDkuNmg0LjJjMy43IDAgNy4zIDAuOSA3LjMgNS44IDAgNS0zLjQgNi41LTcuMyA2LjVIMjAuOXpNMjAuOSA4MS45VjY4aDVjNSAwIDcuNSAyIDcuNSA3IDAgNS0yLjMgNi44LTcuNiA2LjhIMjAuOXoiLz48L3N2Zz4=">
+
+                <div class="grow">
+                    <p> To all my friends and peers, I hope you all have an excellent holiday season!</p>
+                    <p>I look forward to seeing you all next term. </p>
+                </div>
+                
+                <h3>-Brett</h3>
+                
+            
+        </article>
+    <br / >
+    <input type="range" id="slider" name="open" min="5" value="18" max="175" oninput="rotate()"  class="niceBg hidden">
+    <div>
+        <button id="opener" onclick="openCard()">Open Card</button>
+    </div>
+    <br / >
+    <br / >
+    <div class="hidden" id="preloader">
+        <img id="bigFlake" src="./images/bow-1831698_1280.png">
+        <img src="./images/christmas-colour/christmas-colour.png">
+        <img src="./images/new_year_background/new_year_background-alpha3.png">
+    </div>
+</body>
+</html>
